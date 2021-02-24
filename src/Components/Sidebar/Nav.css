@@ -1,0 +1,16 @@
+.nav__wrapper {
+	grid-area: nav;
+	padding: 25px 20px;
+	background-color: #cccccc;
+}
+
+.nav__wrapper a {
+	user-select: none;
+	color: #333333;
+	font-size: 25px;
+}
+
+.nav__wrapper a:hover {
+	opacity: 0.7;
+	transition: 0.2s;
+}

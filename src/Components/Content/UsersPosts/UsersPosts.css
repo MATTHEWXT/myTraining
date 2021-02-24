@@ -1,0 +1,17 @@
+.users__posts {
+	margin: 70px 0 0 0;
+	display: flex;
+	align-items: center;
+	background-color: rgba(234, 234, 234);
+	border-radius: 50px;
+}
+
+.users__posts img {
+	user-select: none;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.users__comments {
+	margin: 0 0 0 10px;
+}

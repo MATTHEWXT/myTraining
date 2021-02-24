@@ -1,0 +1,67 @@
+.general__wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.users__interactive {
+
+}
+
+.users__interactive img {
+    width: 50px;
+    border-radius: 100%;
+    border: gray 3px solid;
+    margin-left: 22%;
+}
+
+.users__interactive button {
+    width: 120px;
+    height: 25px;
+    background-color: #6633ff;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    user-select: none;
+}
+
+.users__interactive button:hover {
+    background-color: #9999ff;
+    transition: 0.2s;
+    border: none;
+}
+
+.users__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: gray 2px solid;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.users__info p {
+    color: #333333;
+}
+
+.button__more{
+    text-align: center;
+}
+.button__more button{
+    width: 140px;
+    height: 45px;
+    background-color: #6633ff;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    user-select: none;
+    margin: 20px;
+
+}
+
+.button__more button:hover {
+    background-color: #9999ff;
+    transition: 0.2s;
+    border: none;
+}

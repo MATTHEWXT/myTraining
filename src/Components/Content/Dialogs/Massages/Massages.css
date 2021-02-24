@@ -1,0 +1,25 @@
+.user__massage {
+	display: flex;
+	flex-direction: column;
+}
+
+.massage__menu {
+	max-width: 350px;
+	display: flex;
+	align-items: center;
+	margin: 20px 0px 50px 50px;
+	background-color: rgba(234, 234, 234);
+	border-radius: 50px;
+	padding: 0 10px 0 0;
+}
+
+.user__icon img {
+	user-select: none;
+	width: 40px;
+	border-radius: 50px;
+}
+
+.user__massage p {
+	color: black;
+	margin: 0 0 0 15px;
+}

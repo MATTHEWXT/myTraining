@@ -1,0 +1,11 @@
+.footer__wrapper {
+    grid-area: footer;
+    background-color: #333333;
+    padding: 10px 25px;
+}
+
+.footer__wrapper p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}

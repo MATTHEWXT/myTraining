@@ -1,0 +1,26 @@
+.header__wrapper {
+	grid-area: header;
+	background-color: #6633ff;
+	padding: 0 0 0 0;
+}
+
+.header__wrapper ul {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: stretch;
+}
+
+.header__wrapper li {
+	margin: 0 30px;
+}
+
+.header__wrapper a {
+	user-select: none;
+	color: white;
+	font-size: 23px;
+}
+.header__wrapper a:hover {
+	opacity: 0.4;
+	transition: 0.2s;
+}

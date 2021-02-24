@@ -1,0 +1,66 @@
+.profile__wrapper{
+    grid-area: content;
+    padding: 15px 0 15px 15px;
+}
+
+.back__img {
+    height: 250px;
+    background-image: url("https://etextile.uz/wp-content/uploads/2017/09/1024px-New_York_night_view_from_Empire_State.jpg");
+}
+
+.bg__opacity {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.user__text {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user__post {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.user__post textarea {
+    width: 100%;
+    resize: none;
+    height: 70px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.user__post textarea:focus {
+    box-shadow: 0 0 10px 2px black;
+}
+.user__post button {
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    margin: 10px 0 0 0;
+    background-color: #6633ff;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    top: 85px;
+}
+.user__post button:hover {
+    background-color: #9999ff;
+    transition: 0.2s;
+}
+.user__post p {
+    user-select: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500
+}
